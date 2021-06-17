@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "coffee-script-source"
-  spec.version       = "2.1.1"
+  spec.version       = "2.5.1"
   spec.authors       = ["Jeremy Ashkenas"]
   spec.summary       = "The CoffeeScript Compiler"
   spec.description   = "CoffeeScript is a little language that compiles into
@@ -15,6 +15,6 @@ Gem::Specification.new do |spec|
 
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.16"
+  spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake", "~> 10.0"
 end
